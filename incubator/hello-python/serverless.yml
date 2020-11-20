@@ -9,4 +9,5 @@ plugins:
 
 functions:
   hello:
-    handler: hello.handler
+    # handler: hello.handler
+    handler: subfolder/hello.handler
